@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 class Job
 {
-    public static function all()
+    public static function all(): array
     {
         return [
             [
